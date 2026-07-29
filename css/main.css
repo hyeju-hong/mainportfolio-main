@@ -137,7 +137,7 @@
 
 
 .intro .left h3 span.line2 {
-    padding-top: 20px;
+    padding-top: 3%;
 }
 
 .intro .left h3 span.line2 i {
@@ -172,26 +172,28 @@
 }
 
 .intro .right {
-    width: 40%;
+    width: 44%;
     height: 90vh;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: flex-end;
+    margin-bottom: 54%;
     /* background-color: saddlebrown; */
 }
 
 .intro .right img {
     /* width: 80vw; */
-    transform: scale(1.9);
+
     height: 90vh;
+    
     transform-origin: right top;
-    margin-bottom: 20%;
 
 }
 
 .intro .write{
     margin-bottom: 1px;
     font-family: "Noto Sans KR";
+    margin-top: 2%;
 }
 
 

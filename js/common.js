@@ -31,15 +31,16 @@ const imgTl = gsap.timeline({
         {
             
             scale: 0.4,
-            transformOrigin: "right 44%",
-            filter: 'brightness(0.7)'
+    y: -94,
+    transformOrigin: "right 44%",
+    filter: 'brightness(0.7)'
         },
         {
-            scrub: 0.2,
-            scale: 0.6,
-            filter: 'brightness(1.2)',
-            ease: "power4.Out",
-            duration: 3
+            scale: 0.7,
+    y: -94,
+    filter: 'brightness(1.2)',
+    ease: "power4.out",
+    duration: 3
         }
     );
 
